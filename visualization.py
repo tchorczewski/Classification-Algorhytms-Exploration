@@ -61,7 +61,7 @@ plt.title('Fare of People who did or did not survive')
 plt.show()
 
 #Survival rate per age
-sns.swarmplot(data=titanic_train, x='Survived', y='Age', hue='Sruvived')
+sns.swarmplot(data=titanic_train, x='Survived', y='Age', hue='Survived')
 plt.title('Age distribution for survivors')
 plt.show()
 
