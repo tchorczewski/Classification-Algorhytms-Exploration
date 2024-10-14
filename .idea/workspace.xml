@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23ff410b-cb21-4c3b-80c0-106d04702bb9" name="Changes" comment="Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualization.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualization.py" afterDir="false" />
-    </list>
+    <list default="true" id="23ff410b-cb21-4c3b-80c0-106d04702bb9" name="Changes" comment="Typo fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,12 +131,30 @@
       <option name="project" value="LOCAL" />
       <updated>1728937880544</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial implementations, pending further work">
+      <option name="closed" value="true" />
+      <created>1728943715447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728943715447</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Typo fix">
+      <option name="closed" value="true" />
+      <created>1728944356899</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728944356899</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Initial implementations, pending further work" />
+    <MESSAGE value="Typo fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Typo fix" />
   </component>
 </project>
