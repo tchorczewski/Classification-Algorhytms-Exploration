@@ -9,23 +9,20 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 
+
 titanic_train = pd.read_csv('train.csv')
-titanic_test = pd.read_csv('test.csv')
 
 #Dropping columns that were deemed unimportant during visualization and data exploration
 titanic_train.drop(['Age','PassengerId', 'Ticket', 'Name','SibSp','Cabin'], axis=1, inplace=True)
-titanic_test.drop(['Age','PassengerId', 'Ticket', 'Name','SibSp','Cabin'], axis=1, inplace=True)
+
 #Dealing with null values
 titanic_train.dropna(subset=['Embarked'], axis=0, inplace=True)
 
 #Encoding categorical data
 label_encoder = LabelEncoder()
 titanic_train['Sex'] = label_encoder.fit_transform(titanic_train['Sex'])
-titanic_test['Sex'] = label_encoder.fit_transform(titanic_test['Sex'])
-
 titanic_train = pd.get_dummies(titanic_train,columns=['Embarked'], drop_first=True)
-titanic_test = pd.get_dummies(titanic_test,columns=['Embarked'], drop_first=True)
-print(titanic_train.info())
+
 #Preparing data for predictions
 x = titanic_train.drop('Survived', axis=1)
 y = titanic_train['Survived']
