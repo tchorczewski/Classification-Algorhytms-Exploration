@@ -4,8 +4,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_theme()
 
-cancer = pd.read_csv('data.csv')
+spam = pd.read_csv('spam.csv')
 
-print(cancer.info())
-print(cancer.describe())
-print(cancer.head())
+print(spam.info())
+print(spam.describe())
+print(spam.head())
+
+#Checking for missing data
+print(spam.isna().sum())
+
